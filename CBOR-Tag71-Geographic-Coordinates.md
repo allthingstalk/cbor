@@ -40,9 +40,13 @@ Geographic coordinates of Belgrade, Serbia.
 # References
 
 [1] C. Bormann, and P. Hoffman. "Concise Binary Object Representation (CBOR)". [RFC 7049](https://tools.ietf.org/html/rfc7049), October 2013.
+
 [2] [Geographic coordinate system, Wikipedia](https://en.wikipedia.org/w/index.php?title=Geographic_coordinate_system&oldid=791574160)
+
 [3] [Prime meridian, Wikipedia](https://en.wikipedia.org/w/index.php?title=Prime_meridian&oldid=790973897)
+
 [4] [ISO 6709 - Standard representation of geographic point location by coordinates](https://en.wikipedia.org/w/index.php?title=ISO_6709&oldid=780503062)
+
 [5] [Decimal degrees](https://en.wikipedia.org/wiki/Decimal_degrees)
 
 # Author
