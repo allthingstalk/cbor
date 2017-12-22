@@ -4,7 +4,7 @@
     Data Item: multiple
     Semantics: Internet of Things Data Point
     Point of contact: Danilo Vidovic <cbor@allthingstalk.com>
-    Description of semantics: https://github.com/allthingstalk/cbor/blob/master/CBOR-Internet-of-Things-Data-Points.md
+    Description of semantics: https://github.com/allthingstalk/cbor/blob/master/CBOR-Tag120-Internet-of-Things-Data-Points.md
 
 # Summary
 
