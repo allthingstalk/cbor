@@ -42,7 +42,7 @@ A weather balloon sending temperature data would encode the data as follows:
 
     # Diagnostic notation: 120([23.5, 1(1500000000), 103([44.78659, 20.44890, 117])])
 
-Notice that temperature value is sent as a single precision float. There’s nothing indicating that 23.5 is degrees Celsius. This is intentional — describing physical units should be left either to the IoT system, or to other CBOR Tags which can then be used to wrap the value.
+Notice that temperature value is sent as a half precision float. There’s nothing indicating that 23.5 is degrees Celsius. This is intentional — describing physical units should be left either to the IoT system, or to other CBOR Tags which can then be used to wrap the value.
 
 # References
 
