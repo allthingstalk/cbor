@@ -32,7 +32,7 @@ Location Uncertainty is optionally represented by the fourth element of the arra
 
 The coordinate reference system (CRS) in which these values are defined is the World Geodetic System 1984 [WGS-84](http://www.unoosa.org/pdf/icg/2012/template/WGS_84.pdf). The choice of WGS-84 as the default CRS is based on the widespread availability of Global Positioning System (GPS) devices, which use the WGS-84 reference system. This is similar to 'geo' URIs described in [RFC 5870](https://tools.ietf.org/html/rfc5870). Specifying alternative coordinate reference systems is not supported.
 
-# Example
+# Examples
 
 Geographic coordinates of Belgrade, Serbia.
 
