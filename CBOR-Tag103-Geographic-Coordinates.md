@@ -24,7 +24,7 @@ Latitude is represented by the first element of the array, in [decimal degrees](
 
 Longitude is represented by the second element of the array, provided in any number format available in CBOR that is precise enough to represent the needed longitude. Positive values indicate longitudes east of the [prime meridian](https://en.wikipedia.org/w/index.php?title=Prime_meridian&oldid=790973897), and negative values indicate longitudes west of the prime meridian.
 
-Elevation is optionally represented by the third element of the array, provided in any number format available in CBOR that is precise enough to represent the elevation in meters. Setting this element to `undefined` (simple value `F7`) should be supported, with the same effect as omitting the elevation element.
+Elevation is optionally represented by the third element of the array, provided in any number format available in CBOR that is precise enough to represent the elevation in meters. Setting this element to `null` (simple value `F6`) should be supported, with the same effect as omitting the elevation element.
 
 Location Uncertainty is optionally represented by the fourth element of the array, provided in any number format available in CBOR that is precise enough to represent the uncertainty in meters with which the location is known.
 
