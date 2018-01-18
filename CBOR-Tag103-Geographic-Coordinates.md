@@ -41,12 +41,12 @@ Geographic coordinates of Belgrade, Serbia.
 
     D8 67                     # Geographic Coordinates - tag(103)
        84                     #                        - array(4)
-          FB 404664AF4F0D844D # Lat: 44.7866° N        - primitive(463...)
-          FB 403472EB1C432CA5 # Lon: 20.4489° E        - primitive(462...)
+          FB 404664AF4F0D844D # Lat: 44.78659° N       - primitive(463...)
+          FB 403472EB1C432CA5 # Lon: 20.44890° E       - primitive(462...)
           18 75               # Alt: 117m              - unsigned(117)
           18 05               # Uncertainty: 5m        - unsigned(5)
 
-    # Diagnostic notation: 103([44.7866, 20.4489, 117, 5])
+    # Diagnostic notation: 103([44.78659, 20.44890, 117, 5])
 
 Geographic coordinates of Ghent, Belgium. Altitude and Uncertainty not specified. Coordinates are supplied as half precision floats.
 
