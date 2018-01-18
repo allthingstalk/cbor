@@ -24,7 +24,7 @@ When applied to non-array types, Tag 120 indicates that the provided value is an
 
 When Tag 120 is applied to an array, the first element of the array represents the value of the IoT Data Point, the second element is data point’s timestamp, represented using Tags 0, 1 or 1001, and the third element contains data point’s geographic coordinates, represented using Tag 103. Both the second and the third element are optional. Omitting geographic coordinates makes them undefined, and omitting the timestamp sets it to the current UTC time.
 
-Setting Timeestamp and Geographic Coordinates to `null` (simple value `F6`) should be supported. The effect of setting values to `null` should be the same as omitting them.
+Setting Timestamp and Geographic Coordinates to `null` (simple value `F6`) should be supported. The effect of setting values to `null` should be the same as omitting them.
 
 # Example
 
@@ -38,8 +38,8 @@ A weather balloon sending temperature data would encode the data as follows:
              1A 59682F00            # 2017/07/14 02:40 UTC - unsigned(1500000000)
           D8 67                     # Geographic           - tag(103)
              83                     #    Coordinates         array(3)
-                FB 404664AF4F0D844D # Lat: 44.78659...° N  - primitive(463...)
-                FB 403472EB1C432CA5 # Lon: 20.44890...° E  - primitive(462...)
+                FB 404664AF4F0D844D # Lat: 44.78659° N     - primitive(463...)
+                FB 403472EB1C432CA5 # Lon: 20.44890° E     - primitive(462...)
                 18 75               # Elevation: 117m      - unsigned(117)
 
     # Diagnostic notation: 120([23.5, 1(1500000000), 103([44.78659, 20.44890, 117])])
