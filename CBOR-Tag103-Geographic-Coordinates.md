@@ -12,9 +12,7 @@ This document specifies a tag for Geographic Coordinates.
 
 # Rationale
 
-[Geographic Coordinates](https://en.wikipedia.org/w/index.php?title=Geographic_coordinate_system&oldid=791574160) are used for specifying every location on Earth. The usual choice uses Latitude, Longitude and Elevation, following [ISO 6709](https://en.wikipedia.org/wiki/ISO_6709). This is what Tag 103 supports as well.
-
-Additionally supported by this tag is Location Uncertainty, as defined in [RFC 5870, 3.4.3.](https://tools.ietf.org/html/rfc5870#section-3.4.3).
+[Geographic Coordinates](https://en.wikipedia.org/w/index.php?title=Geographic_coordinate_system&oldid=791574160) are used for specifying every location on Earth. Tag 103 can be used to specify Latitude, Longitude, Elevation and Location Uncertainty, following [ISO 6709](https://en.wikipedia.org/wiki/ISO_6709) and [RFC 5870](https://tools.ietf.org/html/rfc5870).
 
 # Semantics
 
@@ -28,7 +26,7 @@ Elevation is optionally represented by the third element of the array, provided 
 
 Location Uncertainty is optionally represented by the fourth element of the array, provided in any number format available in CBOR that is precise enough to represent the uncertainty in meters with which the location is known.
 
-Setting Elevation and Location Uncertainty to `null` (simple value `F6`) should be supported. The effect of setting values to `null` should be the same as omitting them.
+Setting Elevation or Location Uncertainty to `null` (simple value `F6`) should be supported. The effect of setting values to `null` should be the same as omitting them.
 
 ## Coordinate reference system
 
